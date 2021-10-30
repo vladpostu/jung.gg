@@ -1,0 +1,20 @@
+
+
+.error {
+    width: 75% !important;
+    height: 550px;
+    background: #0D1B2D !important;
+}
+
+.error div {
+    white-space: nowrap;
+    text-align: center;
+}
+
+.error div * {
+    padding: 5px 0;
+}
+
+.error div h1 {
+    color: #42BEEB;
+}

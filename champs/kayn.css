@@ -1,0 +1,202 @@
+
+* {
+    color: snow;
+}
+
+.container {
+    margin: 30px 0;
+    width: 80%;
+    background: #212144;
+    z-index: 20;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.c1 {
+    height: 250px;
+    position: relative;
+}
+
+.c1 div {
+    max-height: 90%; 
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.c1 div  {
+    display: flex;
+    flex-direction: row;
+}
+
+.c1 div div {
+    display: flex;
+    flex-direction: row;
+}
+
+.c1 div div .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.side {
+    width: 100px;
+}
+
+#champ {
+    bottom: 10px;
+}
+
+#side {
+    display: flex;
+    flex-direction: column;
+}
+
+#c1 {
+    position: relative;
+}
+
+.line {
+    top: -50%;
+    left: 0%;
+    transform: translate(50%, 0%);
+    width: 2px;
+    height: 100px;
+    background: #9A9AAF;
+    z-index: 100;
+}
+
+.text {
+    justify-content: space-between;
+    padding: 0 !important;
+    height: 120px;
+}
+
+.text * {
+    padding: 0 !important;
+    text-align: center;
+}
+
+.text div:nth-child(1){
+    font-size: 38px;
+    font-weight: 700;
+    top: 10px;
+    right: 5px;
+}
+
+.text div:nth-child(2){
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    top: 10px;
+    text-align: center;
+    z-index: 1000;
+    padding-left: 20px !important;
+}
+
+#side {
+    right: 60px;
+    bottom: 15px;
+    
+}
+
+#side div img {
+    cursor: pointer;
+}
+
+#side-text {
+    font-size: 20px !important;
+    font-weight: 500 !important;
+}
+
+#c2-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column !important;
+    width: 25%;
+}
+
+.stat div:nth-child(1) {
+    font-weight: 600;
+    font-size: 22px;
+    opacity: 0.4;
+}
+
+.stat div:nth-child(2) {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+#c3 {
+    height: auto;
+}
+
+#c3 div {
+    padding: 40px;
+}
+
+.images {
+    width: 50%;
+    margin-top: 30px;
+    left: 50px !important;
+    padding: 0 !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.image {
+    position: relative;
+    border: 1px solid black;
+    padding: 0 !important;
+    width: 200px;
+}
+
+.image img {
+    width: 100%;
+}
+
+.num {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    padding: 5px 10px !important;
+    border-radius: 50%;
+    background: #0E0E0E;
+    z-index: 201;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.camp {
+    position: absolute;
+    top: 100px;
+    left: 55%;
+    padding: 0 !important;
+    border: 2px solid #0E0E0E;
+}
+
+.path {
+    position: relative;
+}
+
+.camp img{
+    float: right;
+    width: 400px;
+    height: 450px;
+    padding: 0 !important;
+}
+
+.text .champ {
+    width: 50%;
+}
