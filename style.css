@@ -108,6 +108,8 @@ header nav {
     padding-left: 5px;
     color: #333;
     font-size: 16px;
+    outline: none;
+    border: none;
 }
 
 .patch {
