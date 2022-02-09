@@ -1,2 +1,3 @@
 # jung.gg
+
 Redesign idea 
