@@ -1,3 +1,3 @@
-# jung.gg
+# jung.gg *(OUTDATED)*
 
-Redesign idea 
+Old redesign idea proposed to jung.gg 
